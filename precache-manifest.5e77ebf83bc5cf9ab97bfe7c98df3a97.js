@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8348581f092eee85b8fb12a14efcfd8d",
+    "revision": "ebb83ae7cdeb52a0d0401a5d61f6e6b7",
     "url": "/busweb/index.html"
   },
   {
-    "revision": "a56ab7be58925171d4ed",
+    "revision": "8cf4fbee5392942a0406",
     "url": "/busweb/static/css/main.47a774ef.chunk.css"
   },
   {
-    "revision": "b1f0dcf1897780ec2ee5",
-    "url": "/busweb/static/js/2.0af53e89.chunk.js"
+    "revision": "976cc7d8985a3903fce2",
+    "url": "/busweb/static/js/2.1ecd2fe5.chunk.js"
   },
   {
     "revision": "a1a636632721a402612df3e043dd630d",
-    "url": "/busweb/static/js/2.0af53e89.chunk.js.LICENSE.txt"
+    "url": "/busweb/static/js/2.1ecd2fe5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a56ab7be58925171d4ed",
-    "url": "/busweb/static/js/main.4b82795d.chunk.js"
+    "revision": "8cf4fbee5392942a0406",
+    "url": "/busweb/static/js/main.e1c10635.chunk.js"
   },
   {
     "revision": "432f6b0154efbf758589",
