@@ -1,14 +1,47 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import banner from './img/banner.jpg';
 import laptop2 from './img/laptop2.jpg';
 import repair from './img/repair.jpg';
+import Intel from './img/Intel.png';
+import dell from './img/dell.jpg';
+import hp from './img/hp.png';
+import tally from './img/tally.png';
+import Modal from 'react-modal';
 import custom from './img/custom.jpg';
 import './contact.php';
+import './RightNav';
 
 function Home() {
+  const [modalIsOpen, setModalIsOpen]=useState(false)
   return (
 
     <>
+    
+    
+<Modal isOpen={modalIsOpen} onRequestClose={()=> setModalIsOpen(false)}
+style={{
+  overlay:{
+    backgroundColor:'grey'
+  },
+  content:{
+    color: 'orange'
+  }
+}}>
+<h2>Services we provide</h2>
+<p>
+<ul>Deals in following : 
+<li>Sales of CCTV CAMERA Laptop,Desktop,Printer,OnlineUPS,Batteries&other Hardware Pheriperals</li>
+<li>LAN, Wireless LAN, Internet sharing, LAN cabling.</li>
+<li>Operating system support, drivers, application software.</li>
+<li>LAPTOP,DESKTOP & PRINTER REPAIR</li>
+<li> Deals in Sale & Support  of TALLY PACKAGE</li>
+We provide annual maintenance services for desktop workstations, servers &networks.
+<li>E-tech Systems offers per call services as per customer’s requirement in very nominal rates with response time of 2hrs after receiving the complaint.</li></ul></p>
+<button className="button primary" style={{color:"white"}} onClick={()=>setModalIsOpen(false)}>Close </button>
+
+
+</Modal>
+
 
       <div className="bg" >
         <div className="banner">
@@ -55,7 +88,7 @@ function Home() {
 
       </section>
 
-      <section className="about">
+      <section className="about" id="about">
 
         <div className="backcolor">
 
@@ -68,10 +101,32 @@ function Home() {
 
       </section>
 
+      <section id="client-section">
+        <h1 className="h-primary center" style={{ textAlign: "center", paddingTop:"12px"}} >Brands</h1>
+        <div id="clients">
+            <div className="client-item">
+                <img src={Intel} alt="Our Client"/>
+            </div>
+            <div className="client-item">
+                <img src={dell} alt="Our Client"/>
+            </div>
+          
+            <div className="client-item">
+                <img src={hp} alt="Our Client"/>
+            </div>
+            <div className="client-item">
+                <img src={tally} alt="Our Client"/>
+            </div>
+        </div>
+
+    </section>
+
+
+
       <section id="facilities">
         <div className="container">
           <div className="title">
-            <h1>Our Services</h1>
+            <h1 id="services1">Our Services</h1>
             <p>Quality Guaranteed</p>
           </div>
           <div className="row ">
@@ -97,9 +152,9 @@ function Home() {
 
             <div className="col-md-4">
               <div className="card " >
-                <img className="card-img-top" src={custom} alt="Card image cap" />
-                <div class="card-body" style={{ backgroundColor: "#d4d9cc" }}>
-                  <h5 class="card-title">Custom Repair</h5>
+                <img className="card-img-top" src={custom} alt="Card image cap" onClick={()=>setModalIsOpen(true)}/>
+                <div className="card-body" style={{ backgroundColor: "#d4d9cc" }}>
+                  <h5 className="card-title">Other Services <p style={{fontSize:"10px",color:"blue"}}>(click on image to know more)</p></h5>
                 </div>
               </div>
             </div>
@@ -112,12 +167,12 @@ function Home() {
       </section>
 
 
+      
 
 
 
 
-
-     <form action="/contact.php">
+     <form action="/contact.php" id="contact1">
       <section className="text-gray-700 body-font relative">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
@@ -140,7 +195,7 @@ function Home() {
                   <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
                 </div>
                 <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                  <p className="text-indigo-500">ajay@etechsystem.com</p>
+                  <p className="text-indigo-500">ajay@e-techsystem.com</p>
                   <p className="leading-normal my-5">K-86 (Basement) Kalkaji, New Delhi
                     </p>
                   <span className="inline-flex">
@@ -174,7 +229,11 @@ function Home() {
               </form>
 
 
-
+              <footer class="background">
+    <p class="text-footer">
+       Copyright &copy;  www.e-techsystem.com  2027 - All rigths reserved 
+    </p>
+</footer>
     </>
   );
 }
