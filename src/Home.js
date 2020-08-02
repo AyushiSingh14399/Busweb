@@ -10,6 +10,7 @@ import Modal from 'react-modal';
 import custom from './img/custom.jpg';
 import './contact.php';
 import './RightNav';
+import Nav1 from './Navbar';
 
 function Home() {
   const [modalIsOpen, setModalIsOpen]=useState(false)

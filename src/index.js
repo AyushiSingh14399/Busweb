@@ -10,7 +10,7 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   <BrowserRouter>
     <App />
-    <Home/>
+    
   </BrowserRouter>,
   document.getElementById('root')
 );

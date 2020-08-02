@@ -1,6 +1,7 @@
 import React from 'react';
 //import {navList,navbar} from './index.css';
 import './resp.js';
+import Home from './Home';
 //import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 //import RightNav from './RightNav.js';
@@ -23,6 +24,7 @@ function Nav1() {
 
   return (
     <>
+   
     <Nav style={{backgroundColor:"rgb(25, 25, 26)"}}>
       {/*  <nav className="h-nav-resp">*/}
       <header>
@@ -53,7 +55,9 @@ function Nav1() {
       </header>
       {/*   </nav>*/}
       </Nav>
+      
     </>
+
 
   );
 }
