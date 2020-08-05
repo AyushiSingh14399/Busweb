@@ -40,8 +40,9 @@ const RightNav = ({ open }) => {
               <li><Link to="/">Home</Link></li>
               <li><a href="#about">About</a></li>
               <li><a href="#services1">Services</a></li>
-              <li>
-                <Link to="/Sales">Sales</Link></li>
+              {/* <li>
+            <Link to="/Sales">Sales</Link> 
+              </li> */}
               <li><a href="#contact1">Contact Us</a></li>
              
             </Ul>

@@ -11,7 +11,7 @@ function App() {
  return (
    <>
   <Nav1 />
-  
+  <Home/>
   <Switch>
     <Route exact path='/' component={Home}/>
     
