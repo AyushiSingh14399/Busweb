@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/busweb/static/css/main.47a774ef.chunk.css",
-    "main.js": "/busweb/static/js/main.07f2027d.chunk.js",
-    "main.js.map": "/busweb/static/js/main.07f2027d.chunk.js.map",
+    "main.js": "/busweb/static/js/main.d3bf33ed.chunk.js",
+    "main.js.map": "/busweb/static/js/main.d3bf33ed.chunk.js.map",
     "runtime-main.js": "/busweb/static/js/runtime-main.486ce83f.js",
     "runtime-main.js.map": "/busweb/static/js/runtime-main.486ce83f.js.map",
-    "static/js/2.1ecd2fe5.chunk.js": "/busweb/static/js/2.1ecd2fe5.chunk.js",
-    "static/js/2.1ecd2fe5.chunk.js.map": "/busweb/static/js/2.1ecd2fe5.chunk.js.map",
+    "static/js/2.76c8907e.chunk.js": "/busweb/static/js/2.76c8907e.chunk.js",
+    "static/js/2.76c8907e.chunk.js.map": "/busweb/static/js/2.76c8907e.chunk.js.map",
     "index.html": "/busweb/index.html",
-    "precache-manifest.37ac776149666cafb6aea476a4dc91e8.js": "/busweb/precache-manifest.37ac776149666cafb6aea476a4dc91e8.js",
+    "precache-manifest.207316a5f676c8b2fcfac28f07bc6f2b.js": "/busweb/precache-manifest.207316a5f676c8b2fcfac28f07bc6f2b.js",
     "service-worker.js": "/busweb/service-worker.js",
     "static/css/main.47a774ef.chunk.css.map": "/busweb/static/css/main.47a774ef.chunk.css.map",
-    "static/js/2.1ecd2fe5.chunk.js.LICENSE.txt": "/busweb/static/js/2.1ecd2fe5.chunk.js.LICENSE.txt",
+    "static/js/2.76c8907e.chunk.js.LICENSE.txt": "/busweb/static/js/2.76c8907e.chunk.js.LICENSE.txt",
     "static/media/Intel.png": "/busweb/static/media/Intel.d2357681.png",
     "static/media/index.css": "/busweb/static/media/back5.cd724000.jpg",
     "static/media/banner.jpg": "/busweb/static/media/banner.5ae7767a.jpg",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.486ce83f.js",
-    "static/js/2.1ecd2fe5.chunk.js",
+    "static/js/2.76c8907e.chunk.js",
     "static/css/main.47a774ef.chunk.css",
-    "static/js/main.07f2027d.chunk.js"
+    "static/js/main.d3bf33ed.chunk.js"
   ]
 }
